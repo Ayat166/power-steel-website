@@ -19154,13 +19154,13 @@ var Pu = {
         color: `group-hover:text-racing-yellow`
     }, {
         title: `WhatsApp 1`,
-        url: `https://wa.me/1034471502`,
+        url: `https://wa.me/201034471502`,
         icon: Ou,
         color: `group-hover:text-green-500`
     },
     {
         title: `WhatsApp 2`,
-        url: `https://wa.me/1034471504`,
+        url: `https://wa.me/201034471504`,
         icon: Ou,
         color: `group-hover:text-green-500`
     }
