@@ -19487,7 +19487,18 @@ var Ju = ({ title: e, url: t, icon: n, color: r, index: i }) => (0,
                     H.jsx)(`p`, {
                         className: `text-gray-500 font-mono text-xs tracking-widest uppercase`,
                         children: `Built Strong. Built Precise. Built For Industry.`
-                    })]
+                    }), (0,
+                        H.jsx)(`a`, {
+                            href: `https://www.linkedin.com/in/ayat-ali-0795b21b8/`,
+                            target: `_blank`,
+                            rel: `noopener noreferrer`,
+                            className: `inline-block mt-2 font-mono text-gray-200 hover:text-gray-400 transition-all tracking-widest uppercase cursor-pointer`,
+                            style: {
+                                fontSize: `11px`,
+                                opacity: 0.25
+                            },
+                            children: `Developed by Ayat`
+                        })]
         });
 // function Qu() {
 //     let [e, t] = (0,
