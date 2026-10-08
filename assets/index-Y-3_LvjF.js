@@ -19077,7 +19077,7 @@ function Nu(e) {
     })(e)
 }
 var Pu = {
-    name: `Power Steal`,
+    name: `Power Steel`,
     tagline: `Metal Fabrication • Welding • Industrial Engineering`,
     avatarUrl: `/logo.png`,
     status: `BUILT TO LAST`,
@@ -19110,25 +19110,33 @@ var Pu = {
     //     title: `Custom Manufacturing`
     // }]
 }
-    , projectGallery = [{
-        image: `./media/photo_2026-10-07_16-35-14.jpg`,
-        title: `Custom Equipment`
-    }, {
-        image: `./media/photo_2026-10-07_16-35-01 (2).jpg`,
-        title: `Precision Assemblies`
-    }, {
-        image: `./media/photo_2026-10-07_16-34-48.jpg`,
-        title: `Stainless Workstations`
-    }, {
-        image: `./media/photo_2026-10-07_16-31-48.jpg`,
-        title: `Industrial Ductwork`
-    }, {
-        image: `./media/photo_2026-10-07_16-31-43.jpg`,
-        title: `Industrial Fabrication`
-    }, {
-        image: `./media/photo_2026-10-07_16-31-20.jpg`,
-        title: `Custom Machinery`
-    }]
+    , projectGallery = [
+        {
+            image: `./media/1.jpg`,
+            title: `Parkings`
+        },
+        {
+            image: `./media/2.jpg`,
+            title: `Grills`
+        }, {
+            image: `./media/3.jpg`,
+            title: `Trolly`
+        }, {
+            image: `./media/4.jpg`,
+            title: `Tanks`
+        }, {
+            image: `./media/5.jpg`,
+            title: `Mixers`
+        }, {
+            image: `./media/6.jpg`,
+            title: `Stands`
+        }, {
+            image: `./media/7.jpg`,
+            title: `Stainless Steel Milk Tanker`
+        }, {
+            image: `./media/8.jpg`,
+            title: `Industrial Hangar`
+        }]
     , Fu = [{
         title: `Facebook`,
         url: `https://www.facebook.com/share/1CDgsqYRa1/`,
@@ -19481,6 +19489,250 @@ var Ju = ({ title: e, url: t, icon: n, color: r, index: i }) => (0,
                         children: `Built Strong. Built Precise. Built For Industry.`
                     })]
         });
+// function Qu() {
+//     let [e, t] = (0,
+//         _.useState)(!0);
+//     return (0,
+//         _.useEffect)(() => {
+//             let e = setTimeout(() => {
+//                 t(!1)
+//             }
+//                 , 1500);
+//             return () => clearTimeout(e)
+//         }
+//             , []),
+//         (0,
+//             H.jsxs)(`div`, {
+//                 className: `min-h-screen font-sans selection:bg-racing-red selection:text-white`,
+//                 children: [(0,
+//                     H.jsx)(Xu, {}), (0,
+//                         H.jsx)(Oc, {
+//                             children: e ? (0,
+//                                 H.jsxs)(fu.div, {
+//                                     initial: {
+//                                         opacity: 1
+//                                     },
+//                                     exit: {
+//                                         opacity: 0,
+//                                         scale: 1.1,
+//                                         filter: `blur(10px)`
+//                                     },
+//                                     transition: {
+//                                         duration: .5,
+//                                         ease: `easeOut`
+//                                     },
+//                                     className: `fixed inset-0 z-50 flex flex-col items-center justify-center bg-racing-dark`,
+//                                     children: [(0,
+//                                         H.jsx)(`div`, {
+//                                             className: `text-racing-red font-black text-2xl tracking-[0.3em] uppercase animate-pulse mb-8`,
+//                                             children: `Built Strong. Built Precise. Built For Industry....`
+//                                         }), (0,
+//                                             H.jsx)(`div`, {
+//                                                 className: `w-64 h-2 bg-racing-gray rounded-full overflow-hidden relative`,
+//                                                 children: (0,
+//                                                     H.jsx)(fu.div, {
+//                                                         initial: {
+//                                                             width: 0
+//                                                         },
+//                                                         animate: {
+//                                                             width: `100%`
+//                                                         },
+//                                                         transition: {
+//                                                             duration: 1.2,
+//                                                             ease: `easeInOut`
+//                                                         },
+//                                                         className: `absolute top-0 left-0 h-full bg-gradient-to-r from-racing-yellow via-racing-red to-racing-red`
+//                                                     })
+//                                             }), (0,
+//                                                 H.jsx)(`div`, {
+//                                                     className: `mt-4 flex gap-1`,
+//                                                     children: [...[, , , , ,]].map((e, t) => (0,
+//                                                         H.jsx)(fu.div, {
+//                                                             initial: {
+//                                                                 opacity: .2
+//                                                             },
+//                                                             animate: {
+//                                                                 opacity: 1
+//                                                             },
+//                                                             transition: {
+//                                                                 delay: t * .2,
+//                                                                 duration: .1
+//                                                             },
+//                                                             className: `w-3 h-3 rounded-full bg-racing-red`
+//                                                         }, t))
+//                                                 })]
+//                                 }, `loader`) : (0,
+//                                     H.jsxs)(`main`, {
+//                                         className: `relative z-10 max-w-2xl mx-auto px-4 min-h-screen flex flex-col pt-8 pb-4`,
+//                                         children: [(0,
+//                                             H.jsxs)(fu.div, {
+//                                                 initial: {
+//                                                     opacity: 0,
+//                                                     y: 20
+//                                                 },
+//                                                 animate: {
+//                                                     opacity: 1,
+//                                                     y: 0
+//                                                 },
+//                                                 transition: {
+//                                                     duration: .6,
+//                                                     ease: `easeOut`
+//                                                 },
+//                                                 className: `flex-1 w-full flex flex-col items-center`,
+//                                                 children: [(0,
+//                                                     H.jsx)(Iu, {}), (0,
+//                                                         H.jsx)(Lu, {}), (0,
+//                                                             H.jsxs)(`div`, {
+//                                                                 className: `w-full max-w-md mt-2`,
+//                                                                 children: [(0,
+//                                                                     H.jsx)(Yu, {}), (0,
+//                                                                         H.jsxs)(`section`, {
+//                                                                             className: `w-full mb-6`,
+//                                                                             children: [(0,
+//                                                                                 H.jsxs)(`div`, {
+//                                                                                     className: `flex items-center gap-4 mb-4 w-full opacity-60`,
+//                                                                                     children: [(0,
+//                                                                                         H.jsx)(`div`, {
+//                                                                                             className: `flex-1 h-px bg-gradient-to-r from-transparent to-white/30`
+//                                                                                         }), (0,
+//                                                                                             H.jsx)(`span`, {
+//                                                                                                 className: `text-xs font-mono tracking-widest text-white/50 uppercase`,
+//                                                                                                 children: `Selected Projects`
+//                                                                                             }), (0,
+//                                                                                                 H.jsx)(`div`, {
+//                                                                                                     className: `flex-1 h-px bg-gradient-to-l from-transparent to-white/30`
+//                                                                                                 })]
+//                                                                                 }), (0,
+//                                                                                     H.jsx)(`div`, {
+//                                                                                         className: `grid grid-cols-2 gap-3`,
+//                                                                                         children: projectGallery.map((e, t) => (0,
+//                                                                                             H.jsxs)(`article`, {
+//                                                                                                 className: `group overflow-hidden rounded-xl border border-white/5 bg-racing-gray/80 backdrop-blur-md`,
+//                                                                                                 children: [(0,
+//                                                                                                     H.jsx)(`div`, {
+//                                                                                                         className: `overflow-hidden`,
+//                                                                                                         style: {
+//                                                                                                             height: 136
+//                                                                                                         },
+//                                                                                                         children: (0,
+//                                                                                                             H.jsx)(`img`, {
+//                                                                                                                 src: e.image,
+//                                                                                                                 alt: e.title,
+//                                                                                                                 loading: `lazy`,
+//                                                                                                                 className: `w-full h-full object-cover transition-transform duration-500 group-hover:scale-105`,
+//                                                                                                                 style: {
+//                                                                                                                     width: `100%`,
+//                                                                                                                     height: `100%`,
+//                                                                                                                     objectFit: `cover`
+//                                                                                                                 }
+//                                                                                                             })
+//                                                                                                     }), (0,
+//                                                                                                         H.jsx)(`div`, {
+//                                                                                                             className: `px-3 py-2 text-sm font-semibold tracking-wide text-gray-200`,
+//                                                                                                             children: e.title
+//                                                                                                         })]
+//                                                                                             }, t))
+//                                                                                     }), (0,
+//                                                                                         H.jsxs)(`a`, {
+//                                                                                             href: `https://drive.google.com/drive/folders/17p1NDeirewk0CZ-jCa1yICa7cNHT8kt-`,
+//                                                                                             target: `_blank`,
+//                                                                                             rel: `noopener noreferrer`,
+//                                                                                             className: `group mt-4 flex items-center justify-between w-full p-4 bg-racing-gray/80 backdrop-blur-md rounded-xl border border-white/5 hover:border-racing-red/50 transition-all duration-300`,
+//                                                                                             children: [(0,
+//                                                                                                 H.jsxs)(`div`, {
+//                                                                                                     className: `relative z-10`,
+//                                                                                                     children: [
+//                                                                                                         (0, H.jsx)(`span`, {
+//                                                                                                             className: `block font-semibold tracking-wide text-gray-200 group-hover:text-white`,
+//                                                                                                             children: `View All Projects`
+//                                                                                                         }),
+//                                                                                                         (0, H.jsx)(`span`, {
+//                                                                                                             className: `block text-xs text-gray-500`,
+//                                                                                                             style: {
+
+//                                                                                                                 marginLeft: `20px`
+//                                                                                                             },
+//                                                                                                             children: `Explore the full project gallery`
+//                                                                                                         })
+//                                                                                                     ]
+//                                                                                                 }), (0,
+//                                                                                                     H.jsx)(`div`, {
+//                                                                                                         className: `relative z-10 text-gray-500 group-hover:text-racing-red transition-colors`,
+//                                                                                                         children: (0,
+//                                                                                                             H.jsx)(qu, {
+//                                                                                                                 size: 20
+//                                                                                                             })
+//                                                                                                     })]
+//                                                                                         })]
+//                                                                         }), (0,
+//                                                                             H.jsxs)(`a`, {
+//                                                                                 href: `https://canva.link/5obxb44w7yg2k5i`,
+//                                                                                 target: `_blank`,
+//                                                                                 rel: `noopener noreferrer`,
+//                                                                                 className: `group mt-4 flex items-center justify-between w-full p-4 bg-racing-gray/80 backdrop-blur-md rounded-xl border border-white/5 hover:border-racing-red/50 transition-all duration-300`,
+//                                                                                 children: [(0,
+//                                                                                     H.jsxs)(`div`, {
+//                                                                                         className: `relative z-10`,
+//                                                                                         children: [
+//                                                                                             (0, H.jsx)(`span`, {
+//                                                                                                 className: `block font-semibold tracking-wide text-gray-200 group-hover:text-white`,
+//                                                                                                 children: `Portfolio`
+//                                                                                             }),
+//                                                                                             (0, H.jsx)(`span`, {
+//                                                                                                 className: `block text-xs text-gray-500`,
+//                                                                                                 style: {
+//                                                                                                     marginLeft: `20px`
+//                                                                                                 },
+//                                                                                                 children: `View our complete portfolio`
+//                                                                                             })
+//                                                                                         ]
+//                                                                                     }), (0,
+//                                                                                         H.jsx)(`div`, {
+//                                                                                             className: `relative z-10 text-gray-500 group-hover:text-racing-red transition-colors`,
+//                                                                                             children: (0,
+//                                                                                                 H.jsx)(qu, {
+//                                                                                                     size: 20
+//                                                                                                 })
+//                                                                                         })]
+//                                                                             })]
+//                                                             }), (0,
+//                                                                 H.jsxs)(`div`, {
+//                                                                     className: `flex items-center gap-4 mb-6 w-full opacity-60`,
+//                                                                     children: [(0,
+//                                                                         H.jsx)(`div`, {
+//                                                                             className: `flex-1 h-px bg-gradient-to-r from-transparent to-white/30`
+//                                                                         }), (0,
+//                                                                             H.jsx)(`span`, {
+//                                                                                 className: `text-xs font-mono tracking-widest text-white/50 uppercase`,
+//                                                                                 children: `Links`
+//                                                                             }), (0,
+//                                                                                 H.jsx)(`div`, {
+//                                                                                     className: `flex-1 h-px bg-gradient-to-l from-transparent to-white/30`
+//                                                                                 })]
+//                                                                 }), (0,
+//                                                                     H.jsx)(`div`, {
+//                                                                         className: `flex flex-col w-full`,
+//                                                                         children: Fu.map((e, t) => (0,
+//                                                                             H.jsx)(Ju, {
+//                                                                                 index: t,
+//                                                                                 title: e.title,
+//                                                                                 url: e.url,
+//                                                                                 icon: e.icon,
+//                                                                                 color: e.color
+//                                                                             }, t))
+//                                                                     })]
+//                                             }),
+//                                         (0, H.jsx)(Zu, {})]
+//                                     })
+//                         })]
+//             })
+// };
+// (0,
+//     v.createRoot)(document.getElementById(`root`)).render((0,
+//         H.jsx)(_.StrictMode, {
+//             children: (0,
+//                 H.jsx)(Qu, {})
+//         }));
 function Qu() {
     let [e, t] = (0,
         _.useState)(!0);
@@ -19656,37 +19908,74 @@ function Qu() {
                                                                                                             })
                                                                                                     })]
                                                                                         })]
-                                                                        }), (0,
+                                                                        }),
+
+                                                                (0,
+                                                                    H.jsxs)(`a`, {
+                                                                        href: `https://canva.link/5obxb44w7yg2k5i`,
+                                                                        target: `_blank`,
+                                                                        rel: `noopener noreferrer`,
+                                                                        className: `group mt-4 flex items-center justify-between w-full p-4 mb-2 bg-racing-gray/80 backdrop-blur-md rounded-xl border border-white/5 hover:border-racing-red/50 transition-all duration-300`,
+                                                                        children: [(0,
                                                                             H.jsxs)(`div`, {
-                                                                                className: `flex items-center gap-4 mb-6 w-full opacity-60`,
-                                                                                children: [(0,
-                                                                                    H.jsx)(`div`, {
-                                                                                        className: `flex-1 h-px bg-gradient-to-r from-transparent to-white/30`
-                                                                                    }), (0,
-                                                                                        H.jsx)(`span`, {
-                                                                                            className: `text-xs font-mono tracking-widest text-white/50 uppercase`,
-                                                                                            children: `Links`
-                                                                                        }), (0,
-                                                                                            H.jsx)(`div`, {
-                                                                                                className: `flex-1 h-px bg-gradient-to-l from-transparent to-white/30`
-                                                                                            })]
+                                                                                className: `relative z-10`,
+                                                                                children: [
+                                                                                    (0, H.jsx)(`span`, {
+                                                                                        className: `block font-semibold tracking-wide text-gray-200 group-hover:text-white`,
+                                                                                        children: `Portfolio`
+                                                                                    }),
+                                                                                    (0, H.jsx)(`span`, {
+                                                                                        className: `block text-xs text-gray-500`,
+                                                                                        style: {
+                                                                                            marginLeft: `20px`
+                                                                                        },
+                                                                                        children: `View our complete portfolio`
+                                                                                    })
+                                                                                ]
                                                                             }), (0,
                                                                                 H.jsx)(`div`, {
-                                                                                    className: `flex flex-col w-full`,
-                                                                                    children: Fu.map((e, t) => (0,
-                                                                                        H.jsx)(Ju, {
-                                                                                            index: t,
-                                                                                            title: e.title,
-                                                                                            url: e.url,
-                                                                                            icon: e.icon,
-                                                                                            color: e.color
-                                                                                        }, t))
+                                                                                    className: `relative z-10 text-gray-500 group-hover:text-racing-red transition-colors`,
+                                                                                    children: (0,
+                                                                                        H.jsx)(qu, {
+                                                                                            size: 20
+                                                                                        })
                                                                                 })]
-                                                            })]
+                                                                    })]
+                                                            }),
+
+
+                                                (0,
+                                                    H.jsxs)(`div`, {
+                                                        className: `flex items-center gap-4 mb-6 w-full  max-w-md mt-2 opacity-60`,
+                                                        children: [(0,
+                                                            H.jsx)(`div`, {
+                                                                className: `flex-1 h-px bg-gradient-to-r from-transparent to-white/30`
+                                                            }), (0,
+                                                                H.jsx)(`span`, {
+                                                                    className: `text-xs font-mono tracking-widest text-white/50 uppercase`,
+                                                                    children: `Links`
+                                                                }), (0,
+                                                                    H.jsx)(`div`, {
+                                                                        className: `flex-1 h-px bg-gradient-to-l from-transparent to-white/30`
+                                                                    })]
+                                                    }), (0,
+                                                        H.jsx)(`div`, {
+                                                            className: `flex flex-col w-full  max-w-md`,
+                                                            children: Fu.map((e, t) => (0,
+                                                                H.jsx)(Ju, {
+                                                                    index: t,
+                                                                    title: e.title,
+                                                                    url: e.url,
+                                                                    icon: e.icon,
+                                                                    color: e.color
+                                                                }, t))
+                                                        })
+                                                ]
                                             }), (0,
                                                 H.jsx)(Zu, {})]
                                     })
-                        })]
+                        })
+                ]
             })
 }
 (0,
